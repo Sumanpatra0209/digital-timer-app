@@ -1,0 +1,159 @@
+/* Write your CSS here */
+
+.appContainer {
+  background-image: linear-gradient(
+    to right,
+    #ffffff,
+    #cffcf1,
+    #cffcf1,
+    #defafe
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 50px;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.digitalTimerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.timerDisplayContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 600px;
+  background-position: center;
+}
+
+.elapsedTimeContainer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.elapsedTime {
+  color: #00d9f5;
+  font-family: 'Roboto';
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.timerState {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.controlsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.timerControlContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.timerControlButton {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border-style: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.timerControlIcon {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.timerControlLabel {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.timeLimitControlContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.limitLabel {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.timeLimitControl {
+  display: flex;
+  align-items: center;
+}
+
+.limitControlButton {
+  color: #1e293b;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 500;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+  margin: 10px;
+}
+
+.limitLabelValueContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.limitValue {
+  text-align: center;
+  color: #1e293b;
+  background-image: linear-gradient(to right, #cffcf1, #cffcf1, #00d9f5);
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100px;
+}
